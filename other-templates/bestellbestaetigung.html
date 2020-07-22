@@ -197,8 +197,8 @@
                                                                                                          <table align="center" border="0" cellpadding="0" cellspacing="0" style="width:auto !important;">
                                                                                                               <tbody><tr>
                                                                                                                    <!-- ID:TXT MENU -->
-                                                                                                                   <td align="center" style="color:#333333;">
-                                                                                                                         <a href="#" style="color:#333333; text-decoration:none;"><img src="https://live.staticflickr.com/65535/49773550943_0fc3ced8df_n.jpg" alt="150x50" width="250" height="120" style="margin:0;border:0;padding:0;display:block;object-fit: contain;" editable="true" label="150x50"></a>
+                                                                                                                   <td align="center" style="color:#333333;padding: 20px;">
+                                                                                                                         <a href="#" style="color:#333333; text-decoration:none;"><img src="https://live.staticflickr.com/65535/49773550943_0fc3ced8df_n.jpg" alt="150x50" width="160" height="80" style="margin:0;border:0;padding:0;display:block;object-fit: contain;" editable="true" label="150x50"></a>
                                                                                                                    </td>
                                                                                                               </tr>
                                                                                                          </tbody></table>
@@ -371,13 +371,13 @@
                                                                                           
                                                                                           <tr>
                                                                                      <td align="left" class="heading" style="color:#333333;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-weight: 700;font-size: 32px;line-height:36px;letter-spacing: 0px;">
-                                                                                          <multiline>
+                                                                                          <span>
                                                                                           {%if Salutation%}
                                                                                           Grüezi {{Salutation}} {{LastName1}}
                                                                                           {%else%}
                                                                                           Guten Tag
                                                                                                                 {%endif%}
-                                                                                          </multiline>
+                                                                                          </span>
                                                                                      </td>
                                                                                 </tr><tr>
                                                                                 <td height="15" style="mso-line-height-rule:exactly;line-height: 15px;">&nbsp;
@@ -387,7 +387,7 @@
                                                                                                <!-- ID:TXT CONTENT -->
                                                                                                <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 24px;font-family: 'Muli', sans-serif!important;font-weight: 400;">
                                                                                                      <br>
-                                                                                               <multiline>Vielen Dank für Ihre Bestellung „Gold Inserat“ vom {{Buchungsdatum}}.</multiline><br><multiline>Ihre Buchungsnummer ist {{Buchungsnummer}}. Der Betrag wird zu Beginn des nächsten Monats in Rechnung gestellt.</multiline></td>
+                                                                                               <span>Vielen Dank für Ihre Bestellung „Gold Inserat“ vom {{Buchungsdatum}}.</span><br><span>Ihre Buchungsnummer ist {{Buchungsnummer}}. Der Betrag wird zu Beginn des nächsten Monats in Rechnung gestellt.</span></td>
                                                                                           </tr>
                                                                                           
                                                                                      </tbody></table>
@@ -458,10 +458,10 @@
                                                                                           <tr>
                                                                                                <!-- ID:TXT CONTENT -->
                                                                                                <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 25px;line-height: 27px;font-family: 'Muli', sans-serif!important;font-weight: 400;">
-                                                                                                    <multiline style="
+                                                                                                    <span style="
     font-weight: 800;
 ">Bestellübersicht
- </multiline> 
+ </span> 
                                                                                                </td>
                                                                                           </tr>
                                                                                           <tr>
@@ -483,14 +483,14 @@
                                                                                                                                             
                                                                                                                                             
                                                                                                                                             <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 22px;font-family: 'Muli', sans-serif!important;font-weight: 200;">
-                                                                                                    <multiline style="
+                                                                                                    <span style="
     font-weight: 800;
-">Dienstleistung:</multiline><br> 
-                                                                                               <multiline style="
+">Dienstleistung:</span><br> 
+                                                                                               <span style="
     font-weight: 400;
                   "> Gold Inserat <span style="
     color: red;
-">{{Marke}}</span></multiline></td>
+">{{Marke}}</span></span></td>
                                                                                                                                        </tr>
                                                                                                                                        <tr>
                                                                                                                                             <td height="20" style="font-size:0;mso-line-height-rule:exactly;line-height:10px;">&nbsp;
@@ -502,12 +502,12 @@
                                                                                                                                             
                                                                                                                                             
                                                                                                                                             <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 22px;font-family: 'Muli', sans-serif!important;font-weight: 200;">
-                                                                                                    <multiline style="
+                                                                                                    <span style="
     font-weight: 800;
-">Buchungsnummer:</multiline><br> 
-                                                                                               <multiline style="
+">Buchungsnummer:</span><br> 
+                                                                                               <span style="
     font-weight: 400;
-                  ">{{Buchungsnummer}}</multiline></td>
+                  ">{{Buchungsnummer}}</span></td>
                                                                                                                                        </tr><tr>
                                                                                                                                             <td height="20" style="font-size:0;mso-line-height-rule:exactly;line-height:10px;">&nbsp;
                                                                                                                                                  
@@ -516,12 +516,12 @@
                                                                                                                                             
                                                                                                                                             
                                                                                                                                             <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 22px;font-family: 'Muli', sans-serif!important;font-weight: 200;">
-                                                                                                    <multiline style="
+                                                                                                    <span style="
     font-weight: 800;
-">Buchungsdatum:</multiline><br> 
-                                                                                               <multiline style="
+">Buchungsdatum:</span><br> 
+                                                                                               <span style="
     font-weight: 400;
-                  ">{{Buchungsdatum}}</multiline></td>
+                  ">{{Buchungsdatum}}</span></td>
                                                                                                                                        </tr><tr>
                                                                                                                                             <td height="20" style="font-size:0;mso-line-height-rule:exactly;line-height:10px;">&nbsp;
                                                                                                                                                  
@@ -530,12 +530,12 @@
                                                                                                                                             
                                                                                                                                             
                                                                                                                                             <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 22px;font-family: 'Muli', sans-serif!important;font-weight: 200;">
-                                                                                                    <multiline style="
+                                                                                                    <span style="
     font-weight: 800;
-">Laufzeit</multiline><br> 
-                                                                                               <multiline style="
+">Laufzeit</span><br> 
+                                                                                               <span style="
     font-weight: 400;
-                  ">{{Buchungszeitraum}}</multiline></td>
+                  ">{{Buchungszeitraum}}</span></td>
                                                                                                                                        </tr><tr>
                                                                                                                                             <td height="20" style="font-size:0;mso-line-height-rule:exactly;line-height:10px;">&nbsp;
                                                                                                                                                  
@@ -544,12 +544,12 @@
                                                                                                                                             
                                                                                                                                             
                                                                                                                                             <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 22px;font-family: 'Muli', sans-serif!important;font-weight: 200;">
-                                                                                                    <multiline style="
+                                                                                                    <span style="
     font-weight: 800;
-">Gesamtwert:</multiline><br> 
-                                                                                               <multiline style="
+">Gesamtwert:</span><br> 
+                                                                                               <span style="
     font-weight: 400;
-                  ">CHF {{Preis}}</multiline></td>
+                  ">CHF {{Preis}}</span></td>
                                                                                                                                        </tr></tbody></table>
                                                                                                                              </td>
                                                                                                                         </tr>
@@ -595,7 +595,7 @@
 <table align="left" border="0" cellpadding="0" cellspacing="0" class="display-width-child" width="100%" style="border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt;max-width:100%;width:100%;">
                                                                                                                         <tbody><tr>
                                                                                                                              <td align="left" class="strategy-padding" style="padding-top:15px;padding-bottom:15px;padding-right:10px;padding-left:0;padding: 0 20px;color: #000;font-family: Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 22px;font-family: 'Muli', sans-serif!important;font-weight: 400;">
-                                                                                                                                  <multiline></multiline>
+                                                                                                                                  <span></span>
                                                                                                                              </td>
                                                                                                                         </tr>
                                                                                                                    <tr>
@@ -676,7 +676,7 @@
                                                                                                <!-- ID:TXT CONTENT -->
                                                                                                <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 24px;font-family: 'Muli', sans-serif!important;font-weight: 400;">
                                                                                                      
-                                                                                               <multiline>Wir wünschen Ihnen viel Erfolg mit Ihrem Produkt!</multiline></td>
+                                                                                               <span>Wir wünschen Ihnen viel Erfolg mit Ihrem Produkt!</span></td>
                                                                                           </tr><tr>
                                                                                                                                             <td height="15" style="font-size:0;mso-line-height-rule:exactly;line-height:10px;">&nbsp;
                                                                                                                                                  
@@ -685,12 +685,12 @@
                                                                                                <!-- ID:TXT CONTENT -->
                                                                                                <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 24px;font-family: 'Muli', sans-serif!important;font-weight: 400;">
                                                                                                      
-                                                                                               <multiline>                                                                                   <multiline>Freundliche Grüsse</multiline></td>
+                                                                                               <span>                                                                                   <span>Freundliche Grüsse</span></td>
                                                                                           </tr><tr>
                                                                                                <!-- ID:TXT CONTENT -->
                                                                                                <td align="left" class="MsoNormal no-padding txt-center" style="padding:0 20px;color: #000;font-family:Segoe UI, Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size: 16px;line-height: 24px;font-family: 'Muli', sans-serif!important;font-weight: 400;">
                                                                                                      
-                                                                                               <multiline>Ihr Kundenservice-Team</multiline></td>
+                                                                                               <span>Ihr Kundenservice-Team</span></td>
                                                                                           </tr></tbody></table>
                                                                                 </td>
                                                                            </tr>
@@ -833,8 +833,8 @@
                                                                  <tr>
                                                                       <!-- ID:TXT ADDRESS -->
                                                                       <td align="center" class="MsoNormal" style="padding:0 20px;color:#666666;font-family:'Segoe UI', Helvetica Neue, Arial, Verdana, Trebuchet MS, sans-serif;font-size:14px;line-height:24px;letter-spacing:1px;font-weight:400;border: none;">
-                                                                           <multiline>Telefon: 043 - 588 10 00 (Lun - Ven 8:00 - 17:00)</multiline> <br>
-                                                                      <multiline>E-Mail: service@carforyou.ch</multiline></td>
+                                                                           <span>Telefon: 043 - 588 10 00 (Lun - Ven 8:00 - 17:00)</span> <br>
+                                                                      <span>E-Mail: service@carforyou.ch</span></td>
                                                                  </tr>
                                                                  
                                                                  <tr>
@@ -842,9 +842,9 @@
                                                                       </td>
                                                                  </tr><tr>
                                                                       <td align="center" class="MsoNormal" style="padding:0 20px;color:#666666;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size: 13px;font-weight:400;line-height: 19px;letter-spacing:1px;">
-                                                                           <multiline>CAR FOR YOU AG</multiline> <br>
-<multiline>Badenerstrasse 567</multiline><br>
-<multiline>8048 Zürich</multiline>
+                                                                           <span>CAR FOR YOU AG</span> <br>
+<span>Badenerstrasse 567</span><br>
+<span>8048 Zürich</span>
                                                                       </td>
                                                                  </tr><tr>
                                                                       <td height="30" style="line-height:30px; mso-line-height-rule:exactly;">
@@ -852,9 +852,9 @@
                                                                  </tr>
                                                                  <tr>
                                                                       <td align="center" class="MsoNormal" style="padding:0 20px;color:#666666;font-family:'Segoe UI',sans-serif,Arial,Helvetica,Lato;font-size: 11px;font-weight:400;line-height:24px;letter-spacing:1px;">
-                                                                           <multiline> <span class="txt-copyright unsub-width" style="
+                                                                           <span> <span class="txt-copyright unsub-width" style="
       font-size: 11px;
-  ">Falls Sie den Newsletter abbestellen möchtest, klicken Sie</span>  <span class="txt-unsubscribe unsub-width"> <a href="#" style="color:#666666;text-decoration: underline;">hier.</a></span> </multiline>
+  ">Falls Sie den Newsletter abbestellen möchtest, klicken Sie</span>  <span class="txt-unsubscribe unsub-width"> <a href="#" style="color:#666666;text-decoration: underline;">hier.</a></span> </span>
                                                                       </td>
                                                                  </tr>
                                                                  <tr>
